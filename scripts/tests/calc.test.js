@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 const { TestScheduler } = require('jest');
 const addition = require("../calc");
 
